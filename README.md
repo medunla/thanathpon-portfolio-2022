@@ -1,6 +1,6 @@
 # Thanathpon portfolio website (2022)
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
