@@ -10,7 +10,7 @@ const Layout = () => {
 	};
 
 	return (
-		<div id="fh5co-page" className={isNavActive && 'is-nav-active'}>
+		<div id="fh5co-page" className={isNavActive ? 'is-nav-active' : ''}>
 			<a
 				href="#"
 				className={`js-fh5co-nav-toggle fh5co-nav-toggle${isNavActive ? ' active' : ''}`}

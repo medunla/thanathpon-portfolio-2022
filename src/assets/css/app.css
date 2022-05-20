@@ -420,7 +420,7 @@ figure {
 }
 
 .fh5co-lead {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -976,7 +976,7 @@ figure {
   border-color: #40454f;
 }
 
-#message {
+textarea.form-control.text-area-message {
   height: 130px;
 }
 
@@ -1170,10 +1170,6 @@ figure {
 #fh5co-main .fh5co-narrow-content.contact-information {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.page-template-page-about .fh5co-lead {
-  font-size: 20px;
 }
 
 

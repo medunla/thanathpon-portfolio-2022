@@ -1,8 +1,17 @@
+import React from "react"
+import AboutDescription from "../components/AboutDescription"
+import AboutSkills from "../components/AboutSkills"
+import AboutContactForm from "../components/AboutContactForm"
+import AboutContactInfo from "../components/AboutContactInfo"
+
 const About = () => {
 	return (
-		<div className="fh5co-narrow-content">
-			<h1>ABOUT</h1>
-		</div>
+		<React.Fragment>
+			<AboutDescription />
+			<AboutSkills />
+			<AboutContactForm />
+			<AboutContactInfo />
+		</React.Fragment>
 	)
 }
 
