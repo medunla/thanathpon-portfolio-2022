@@ -1,7 +1,7 @@
 import AboutSkillItem from './AboutSkillItem';
 import skills from "../assets/data/skills";
 
-const renderSkills = skills.map((skill) => <AboutSkillItem {...skill} />);
+const renderSkills = skills.map((skill) => <AboutSkillItem key={skill.id} {...skill} />);
 
 const AboutSkills = () => {
 	return (
