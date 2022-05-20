@@ -11,6 +11,7 @@ import Publication from './views/Publication'
 import Other from './views/Other'
 import About from './views/About'
 import PortfolioDetail from './views/PortfolioDetail'
+import Error from './views/Error';
 
 const routes = [
 	{
@@ -40,6 +41,10 @@ const routes = [
 	{
 		path: route.PORTFOLIO_DETAIL,
 		element: <PortfolioDetail />
+	},
+	{
+		path: '*',
+		element: <Error />
 	}
 ];
 

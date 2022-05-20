@@ -5,7 +5,7 @@ export const route = {
 	PUBLICATION: '/publication',
 	OTHER: '/other',
 	ABOUT: '/about',
-	PORTFOLIO_DETAIL: '/portfolio/:portfolioId'
+	PORTFOLIO_DETAIL: '/portfolios/:portfolioSlug'
 }
 
 export const routeLabel = {
