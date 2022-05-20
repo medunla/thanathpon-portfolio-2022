@@ -264,10 +264,7 @@ figure {
   }
 }
 
-body.offcanvas {
-  overflow-x: hidden;
-}
-body.offcanvas #fh5co-aside {
+.is-nav-active #fh5co-aside {
   -moz-transform: translateX(0);
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -278,7 +275,8 @@ body.offcanvas #fh5co-aside {
   z-index: 999;
   position: fixed;
 }
-body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
+
+.is-nav-active #fh5co-main, .is-nav-active .fh5co-nav-toggle {
   top: 0;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
