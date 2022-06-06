@@ -1,5 +1,7 @@
 # Thanathpon portfolio website (2022)
 
+![Screenshot](/screenshot.png "Screenshot")
+
 ### Project setup
 ```
 npm install
