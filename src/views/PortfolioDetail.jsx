@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import portfolios from '../assets/data/portfolios';
+import { useSelector, useDispatch } from 'react-redux';
+import { getPortfolio } from '../store/portfolioDetail/portfolioDetailSlice';
 import getPageTitle from '../helpers/getPageTitle';
 import PortfolioDetailNavigation from '../components/PortfolioDetailNavigation';
 import Error from './Error';
 
 const PortfolioDetail = () => {
+	const portfolio = useSelector((state) => state.portfolioDetail.data);
 	const { portfolioSlug } = useParams();
-	const portfolio = portfolios.find((item) => item.slug === portfolioSlug);
+	const dispatch = useDispatch();
+	const handleGetPortfolio = (slug) => { dispatch(getPortfolio(slug)) };
+
+	useEffect(() => {
+		handleGetPortfolio(portfolioSlug);
+	}, [portfolioSlug]);
+
 
 	if (portfolio) {
 		const pageTitle = getPageTitle(portfolio.name);
@@ -31,10 +39,10 @@ const PortfolioDetail = () => {
 					/>
 				</div>
 			</React.Fragment>
-		)
+		);
 	}
 
-	return <Error />
+	return <Error />;
 }
 
-export default PortfolioDetail
+export default PortfolioDetail;
