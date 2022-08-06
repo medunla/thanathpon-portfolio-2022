@@ -1,6 +1,7 @@
-import Logo from './Logo'
-import Navigation from './Navigation'
-import Footer from './Footer'
+import React from 'react';
+import Logo from './Logo';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
 const Sidebar = () => {
 	return (
@@ -9,7 +10,7 @@ const Sidebar = () => {
 			<Navigation />
 			<Footer />
 		</aside>
-	)
-}
+	);
+};
 
-export default Sidebar
+export default Sidebar;

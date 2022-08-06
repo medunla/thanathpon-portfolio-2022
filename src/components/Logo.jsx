@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom'
-import { route } from '../enums/route'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { route } from '../enums/route';
 
 const Logo = () => {
 	return (
@@ -8,7 +9,7 @@ const Logo = () => {
 				<img src="http://thnp-w.com/wp-content/uploads/2020/12/Asset-3@2x.png" alt="Thanathpon's Portfolio" title="Thanathpon's Portfolio" />
 			</Link>
 		</h1>
-	)
-}
+	);
+};
 
-export default Logo
+export default Logo;

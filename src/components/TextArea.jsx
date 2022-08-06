@@ -1,4 +1,5 @@
-import HelperText from './HelperText'
+import React from 'react';
+import HelperText from './HelperText';
 
 const TextArea = (props) => {
 	const classes = `form-control${props.errorMessage ? ' is-error' : ''} ${props.className}`;
@@ -18,7 +19,7 @@ const TextArea = (props) => {
 				isError={!!props.errorMessage}
 			/>
 		</div>
-	)
-}
+	);
+};
 
 export default TextArea;

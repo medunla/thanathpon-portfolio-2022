@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { routeLabel } from "../enums/route";
+import { routeLabel } from '../enums/route';
 import getPageTitle from '../helpers/getPageTitle';
-import portfolioType from '../enums/portfolioType'
-import PortfolioList from '../components/PortfolioList'
+import portfolioType from '../enums/portfolioType';
+import PortfolioList from '../components/PortfolioList';
 
 const pageTitle = getPageTitle(routeLabel.PUBLICATION);
 
@@ -17,7 +17,7 @@ const Publication = () => {
 				<PortfolioList types={[portfolioType.PUBLICATION]} />
 			</div>
 		</React.Fragment>
-	)
-}
+	);
+};
 
-export default Publication
+export default Publication;

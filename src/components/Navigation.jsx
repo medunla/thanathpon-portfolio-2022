@@ -29,6 +29,8 @@ const routes = [
 	}
 ];
 
+import React from 'react';
+
 const Navigation = () => {
 	const renderNavigationItems = routes.map((item, index) => {
 		const resolved = useResolvedPath(item.to);

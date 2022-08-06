@@ -43,6 +43,6 @@ const PortfolioDetail = () => {
 	}
 
 	return <Error />;
-}
+};
 
 export default PortfolioDetail;

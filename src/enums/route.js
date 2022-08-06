@@ -6,7 +6,7 @@ export const route = {
 	OTHER: '/other',
 	ABOUT: '/about',
 	PORTFOLIO_DETAIL: '/portfolios/:portfolioSlug'
-}
+};
 
 export const routeLabel = {
 	HOME: 'Portfolio',
@@ -16,4 +16,4 @@ export const routeLabel = {
 	OTHER: 'Others',
 	ABOUT: 'About Me',
 	PORTFOLIO_DETAIL: 'Portfolio'
-}
+};

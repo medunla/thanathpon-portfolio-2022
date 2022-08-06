@@ -1,4 +1,5 @@
-import HelperText from './HelperText'
+import React from 'react';
+import HelperText from './HelperText';
 
 const Input = (props) => {
 	const classes = `form-control${props.errorMessage ? ' is-error' : ''} ${props.className}`;
@@ -17,7 +18,7 @@ const Input = (props) => {
 				isError={!!props.errorMessage}
 			/>
 		</div>
-	)
-}
+	);
+};
 
 export default Input;

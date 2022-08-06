@@ -1,3 +1,5 @@
+import React from 'react';
+
 const AboutContactInfo = () => {
 	return (
 		<div className="fh5co-more-contact">

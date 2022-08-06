@@ -1,3 +1,5 @@
+import React from 'react';
+
 const AboutSkillItem = (props) => {
 	return (
 		<div className="col-lg-3 col-md-6 col-sm-6 text-center animate-box counters-item fadeInUp animated">

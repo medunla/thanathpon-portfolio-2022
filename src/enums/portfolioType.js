@@ -4,6 +4,6 @@ const portfolioType = {
 	PUBLICATION: 'Publication',
 	DIRECTORY_OR_DIGITAL_SIGNAGE: 'Directory/Digital Signage',
 	ONLINE_ADVERTISING: 'Online Advertising'
-}
+};
 
-export default portfolioType
+export default portfolioType;

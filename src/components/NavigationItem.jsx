@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavigationItem = (props) => {
 	const to = props.to
@@ -9,7 +10,7 @@ const NavigationItem = (props) => {
 		<li className={isActive ? 'active' : ''}>
 			<Link to={to}>{label}</Link>
 		</li>
-	)
-}
+	);
+};
 
-export default NavigationItem
+export default NavigationItem;

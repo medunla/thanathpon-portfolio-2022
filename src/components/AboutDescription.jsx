@@ -1,3 +1,5 @@
+import React from 'react';
+
 const AboutDescription = () => {
 	return (
 		<div className="fh5co-narrow-content">

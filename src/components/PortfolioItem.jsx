@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PortfolioItem = (props) => {
 	return (
@@ -14,7 +15,7 @@ const PortfolioItem = (props) => {
 				<p>{props.type || 'No categories'}</p>
 			</Link>
 		</div>
-	)
-}
+	);
+};
 
-export default PortfolioItem
+export default PortfolioItem;

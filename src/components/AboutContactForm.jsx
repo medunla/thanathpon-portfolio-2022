@@ -1,12 +1,12 @@
-import { useState } from "react";
-import Input from "./Input";
-import TextArea from "./TextArea";
+import React, { useState } from 'react';
+import Input from './Input';
+import TextArea from './TextArea';
 
 const validateInput = (data) => {
 	if (!data) {
 		return 'The field is required';
 	} else if (data.length > 255) {
-		return 'Characters must less or equal 255'
+		return 'Characters must less or equal 255';
 	}
 	return '';
 };

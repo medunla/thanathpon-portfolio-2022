@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { route } from '../enums/route';
-import PortfolioDetailNavigationPrev from "./PortfolioDetailNavigationPrev";
-import PortfolioDetailNavigationNext from "./PortfolioDetailNavigationNext";
+import PortfolioDetailNavigationPrev from './PortfolioDetailNavigationPrev';
+import PortfolioDetailNavigationNext from './PortfolioDetailNavigationNext';
 
 const PortfolioDetailNavigation = (props) => {
 	return (
@@ -18,7 +19,7 @@ const PortfolioDetailNavigation = (props) => {
 				</div>
 			</div>
 		</div>
-	)
-}
+	);
+};
 
-export default PortfolioDetailNavigation
+export default PortfolioDetailNavigation;

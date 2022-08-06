@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { routeLabel } from "../enums/route";
+import { routeLabel } from '../enums/route';
 import getPageTitle from '../helpers/getPageTitle';
-import portfolioType from '../enums/portfolioType'
-import PortfolioList from '../components/PortfolioList'
+import portfolioType from '../enums/portfolioType';
+import PortfolioList from '../components/PortfolioList';
 
 const pageTitle = getPageTitle(routeLabel.WEBSITE);
 
@@ -17,7 +17,7 @@ const Website = () => {
 				<PortfolioList types={[portfolioType.WEB_DESIGN]} />
 			</div>
 		</React.Fragment>
-	)
-}
+	);
+};
 
-export default Website
+export default Website;

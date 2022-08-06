@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { routeLabel } from "../enums/route";
+import { routeLabel } from '../enums/route';
 import getPageTitle from '../helpers/getPageTitle';
-import portfolioType from '../enums/portfolioType'
-import PortfolioList from '../components/PortfolioList'
+import portfolioType from '../enums/portfolioType';
+import PortfolioList from '../components/PortfolioList';
 
 const pageTitle = getPageTitle(routeLabel.OTHER);
 
@@ -20,7 +20,7 @@ const Other = () => {
 				]} />
 			</div>
 		</React.Fragment>
-	)
-}
+	);
+};
 
-export default Other
+export default Other;

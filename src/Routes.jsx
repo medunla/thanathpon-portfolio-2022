@@ -1,16 +1,17 @@
+import React from 'react';
 import {
 	Routes as TheRoutes,
 	Route,
 } from 'react-router-dom';
-import { route } from './enums/route'
+import { route } from './enums/route';
 
-import Home from './views/Home'
-import Website from './views/Website'
-import Application from './views/Application'
-import Publication from './views/Publication'
-import Other from './views/Other'
-import About from './views/About'
-import PortfolioDetail from './views/PortfolioDetail'
+import Home from './views/Home';
+import Website from './views/Website';
+import Application from './views/Application';
+import Publication from './views/Publication';
+import Other from './views/Other';
+import About from './views/About';
+import PortfolioDetail from './views/PortfolioDetail';
 import Error from './views/Error';
 
 const routes = [
