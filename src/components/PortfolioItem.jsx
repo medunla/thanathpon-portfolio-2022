@@ -18,4 +18,4 @@ const PortfolioItem = (props) => {
 	);
 };
 
-export default PortfolioItem;
+export default React.memo(PortfolioItem);

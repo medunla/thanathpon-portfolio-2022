@@ -21,4 +21,4 @@ const PortfolioList = (props) => {
 	);
 };
 
-export default PortfolioList;
+export default React.memo(PortfolioList);

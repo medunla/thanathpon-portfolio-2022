@@ -8,4 +8,4 @@ const HelperText = (props) => {
 	);
 };
 
-export default HelperText;
+export default React.memo(HelperText);

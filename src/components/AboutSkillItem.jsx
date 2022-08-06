@@ -13,4 +13,4 @@ const AboutSkillItem = (props) => {
 	);
 };
 
-export default AboutSkillItem;
+export default React.memo(AboutSkillItem);

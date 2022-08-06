@@ -8,4 +8,4 @@ const PortfolioDetailNavigationPrev = (props) => {
 	return '';
 };
 
-export default PortfolioDetailNavigationPrev;
+export default React.memo(PortfolioDetailNavigationPrev);
