@@ -1373,3 +1373,12 @@ blockquote.right {
 span.wpcf7-not-valid-tip {
 	font-size: 16px;
 }
+
+.page-error-text {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	text-align: center;
+}
